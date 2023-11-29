@@ -31,9 +31,16 @@ export const ShowHide = (controller, options = {}) => {
     elements.forEach(element => {hide(element)})
   }
 
-
-
   // agrego los métodos al controller
   // también agrego las opctiones para que sean accesibles en los métodos
   Object.assign(controller, { show, hide, showAll, hideAll, showHideOptions })
+}
+
+module.exports = {
+  output: {
+    library: {
+      name: "ShowHide",
+      type: "module",
+    }
+  }
 }

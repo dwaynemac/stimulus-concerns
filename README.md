@@ -11,7 +11,32 @@ You can use jsdelivr cdn to import the concern.
 Url format is `https://cdn.jsdelivr.net/gh/dwaynemac/stimulus-concerns/src/<concern>.js`
 See: https://www.jsdelivr.com/?docs=gh
 
-## Example (not using webpacker)
+## Example (Importmap)
+
+```ruby
+# config/importmap.rb
+pin "@dwaynemac/loggable", to: "https://cdn.jsdelivr.net/gh/dwaynemac/stimulus-concerns@0.1/src/loggable.min.js"
+pin "@dwaynemac/showHide", to: "https://cdn.jsdelivr.net/gh/dwaynemac/stimulus-concerns/src/showHide.min.js"
+```
+
+```js
+
+import { Controller } from '@hotwire/stimulus'
+import { Loggable } from "@dwaynemac/loggable"
+import { ShowHide } from "@dwaynemac/showHide"
+
+export default class extends Controller {
+  initialize() {
+    Loggable(this);
+    ShowHide(this);
+  }
+
+  // ...
+}
+
+```
+
+## Example (wout Importmap nor Webpacker)
 ```js
 
 import { Controller } from '@hotwire/stimulus';

@@ -7,3 +7,7 @@
 /dataSources/
 /dataSources.local.xml
 .idea/
+/markdown.xml
+/modules.xml
+/stimulus-concerns.iml
+/vcs.xml

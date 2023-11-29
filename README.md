@@ -1,4 +1,5 @@
 # README
+Following Rails concerns convention, this package provides a set of
 Concerns to be used in stimulus controllers.
 
 # Usage

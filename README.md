@@ -14,7 +14,7 @@ See: https://www.jsdelivr.com/?docs=gh
 ```js
 
 import { Controller } from '@hotwire/stimulus';
-import { ShowHide } from 'https://cdn.jsdelivr.net/gh/dwaynemac/stimulus-concerns/src/showHide.js';
+import { ShowHide } from 'https://cdn.jsdelivr.net/gh/dwaynemac/stimulus-concerns@0.1/src/showHide.min.js';
 
 export default class extends Controller {
   initialize() {

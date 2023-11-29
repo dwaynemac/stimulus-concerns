@@ -26,3 +26,6 @@ export default class extends Controller {
 }
 
 ```
+
+# Known Issues
+- [ ] wont work with webpacker.

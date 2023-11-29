@@ -4,7 +4,11 @@ Concerns to be used in stimulus controllers.
 # Usage
 
 Import the concern you want to use in your controller and call it in the initialize method.
-You can use jsdelivr cdn to import the concern. Url format is `https://cdn.jsdelivr.net/gh/dwaynemac/stimulus-concerns/src/<concern>.js`
+
+## CDN
+You can use jsdelivr cdn to import the concern.
+Url format is `https://cdn.jsdelivr.net/gh/dwaynemac/stimulus-concerns/src/<concern>.js`
+See: https://www.jsdelivr.com/?docs=gh
 
 ## Example
 ```js

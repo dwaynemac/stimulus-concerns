@@ -11,7 +11,7 @@ You can use jsdelivr cdn to import the concern.
 Url format is `https://cdn.jsdelivr.net/gh/dwaynemac/stimulus-concerns/src/<concern>.js`
 See: https://www.jsdelivr.com/?docs=gh
 
-## Example
+## Example (not using webpacker)
 ```js
 
 import { Controller } from '@hotwire/stimulus';
@@ -29,5 +29,5 @@ export default class extends Controller {
 
 ```
 
-# Known Issues
-- [ ] wont work with webpacker.
+## Example (using Webpacker)
+- [ ] TODO: Add webpacker example. (import {} from "..." doesn't work) 

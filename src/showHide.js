@@ -35,12 +35,3 @@ export const ShowHide = (controller, options = {}) => {
   // también agrego las opctiones para que sean accesibles en los métodos
   Object.assign(controller, { show, hide, showAll, hideAll, showHideOptions })
 }
-
-module.exports = {
-  output: {
-    library: {
-      name: "ShowHide",
-      type: "module",
-    }
-  }
-}
